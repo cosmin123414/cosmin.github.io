@@ -1,9 +1,9 @@
 @font-face {
     font-family: 'Prime';
-    src: url('https://github.com/cosmin123414/Portfolio/tree/d48153a8716ba12e216e0797d241753b8eb470a5/Fonts/Prime-Regular.eot'); /* Older IE */
-    src: url('https://github.com/cosmin123414/Portfolio/tree/d48153a8716ba12e216e0797d241753b8eb470a5/Fonts/Prime-Regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-         url('https://github.com/cosmin123414/Portfolio/tree/d48153a8716ba12e216e0797d241753b8eb470a5/Fonts/Prime-Regular.woff2') format('woff2'), /* Super modern browsers */
-         url('https://github.com/cosmin123414/Portfolio/tree/d48153a8716ba12e216e0797d241753b8eb470a5/Fonts/Prime-Regular.woff') format('woff'); /* Modern browsers */
+    src: url('https://github.com/cosmin123414/cosmin.github.io/tree/main/fonts/Prime-Regular.eot'); /* Older IE */
+    src: url('https://github.com/cosmin123414/cosmin.github.io/tree/main/fonts/Prime-Regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('https://github.com/cosmin123414/cosmin.github.io/tree/main/fonts/Prime-Regular.woff2') format('woff2'), /* Super modern browsers */
+         url('https://github.com/cosmin123414/cosmin.github.io/tree/main/fonts/Prime-Regular.woff') format('woff'); /* Modern browsers */
     font-weight: normal;
     font-style: normal;
 }
