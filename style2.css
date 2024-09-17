@@ -1,0 +1,244 @@
+/* Ensure the font is loaded and applied */
+@font-face {
+    font-family: 'Verdana';
+    src: local('Verdana'), url('https://fonts.googleapis.com/css2?family=Verdana:wght@400&display=swap') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    font-family: 'Verdana', sans-serif;
+    font-size: 15px; /* Default font size */
+    margin: 0;
+    padding: 0;
+    background: #ffffff;
+    text-align: justify;
+}
+
+#article-content {
+    max-width: 70%; /* Maximum width for the article content */
+    margin: 20px auto; /* Center align the article content */
+    padding: 20px;
+    background: #ffffff;
+}
+
+/* Control over font size */
+.font-size-control {
+    font-size: inherit;
+}
+
+/* Control over left and right margins */
+.margin-control {
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+/* Styles for headers, paragraphs, and other elements */
+h1, h2, h3, h4, h5, h6 {
+    margin: 20px 0 10px 0;
+    font-weight: bold;
+    color: #333333;
+}
+
+p {
+    margin: 10px 0;
+    line-height: 1.6;
+    color: #666666;
+}
+
+li {
+    color: #666666; /* Ensures list items have the same color as text */
+}
+
+/* Code blocks */
+pre, code {
+    background: #f0f0f0 !important; /* Ensure consistent background color */
+    color: #000 !important; /* Ensure consistent text color */
+    padding: 10px;
+    border-radius: 4px;
+    overflow-x: auto;
+    margin: 0; /* Reset margin for pre and code */
+    white-space: pre-wrap; /* Ensure lines break correctly */
+}
+
+/* Specific styles for pre elements */
+pre {
+    padding: 1em; /* Add padding for pre elements */
+    white-space: pre; /* Preserve whitespace */
+    margin: 0; /* Ensure no indentation */
+    tab-size: 4; /* Set tab size */
+}
+
+/* Ensure no padding or margin for code elements within pre */
+pre code {
+    padding: 0;
+    margin: 0;
+    display: block;
+    background: #f0f0f0 !important; /* Ensure background color is consistent */
+    color: #000 !important; /* Ensure text color is consistent */
+}
+
+/* Ensure no padding or margin for code elements */
+code {
+    padding: 0;
+    white-space: pre-wrap; /* Ensure lines break correctly */
+    margin: 0; /* Ensure no indentation */
+}
+
+code[class*="language-"], pre[class*="language-"] {
+    color: #000 !important;
+    background: #f0f0f0 !important;
+}
+
+/* Remove background colors from tokens */
+.token.comment,
+.token.block-comment,
+.token.prolog,
+.token.doctype,
+.token.cdata,
+.token.punctuation,
+.token.selector,
+.token.tag,
+.token.attr-name,
+.token.namespace,
+.token.deleted,
+.token.function-name,
+.token.boolean,
+.token.number,
+.token.function,
+.token.property,
+.token.class-name,
+.token.constant,
+.token.symbol,
+.token.important,
+.token.atrule,
+.token.keyword,
+.token.builtin,
+.token.string,
+.token.char,
+.token.attr-value,
+.token.regex,
+.token.variable,
+.token.operator,
+.token.entity,
+.token.url {
+    background: none !important;
+}
+
+/* Maintain syntax highlighting colors */
+.token.comment,
+.token.block-comment,
+.token.prolog,
+.token.doctype,
+.token.cdata {
+    color: slategray;
+}
+
+.token.punctuation {
+    color: #999;
+}
+
+.token.property,
+.token.tag,
+.token.boolean,
+.token.number,
+.token.constant,
+.token.symbol,
+.token.deleted {
+    color: #905;
+}
+
+.token.selector,
+.token.attr-name,
+.token.string,
+.token.char,
+.token.builtin,
+.token.inserted {
+    color: #690;
+}
+
+.token.operator,
+.token.entity,
+.token.url,
+.token.variable {
+    color: #9a6e3a;
+}
+
+.token.atrule,
+.token.attr-value,
+.token.keyword {
+    color: #07a;
+}
+
+.token.function,
+.token.class-name {
+    color: #DD4A68;
+}
+
+.token.regex,
+.token.important,
+.token.bold {
+    color: #e90;
+}
+
+.token.important,
+.token.bold {
+    font-weight: bold;
+}
+
+.token.italic {
+    font-style: italic;
+}
+
+.token.entity {
+    cursor: help;
+}
+
+/* Links */
+a {
+    color: #007acc;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Images */
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 4px;
+}
+
+
+td img {
+    max-width: 100%;
+    height: auto;
+}
+
+table.styled-table {
+    width: 50%; /* Make the table thinner */
+    margin: 20px auto; /* Center the table */
+    border-collapse: collapse;
+    font-size: inherit; /* Use the same font size as body */
+}
+
+table.styled-table th,
+table.styled-table td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: left;
+    color: #666666;
+    width: 33%; /* Make columns equally wide */
+}
+
+table.styled-table th {
+    background-color: #f2f2f2;
+    color: #333333;
+}
+
+table.styled-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
