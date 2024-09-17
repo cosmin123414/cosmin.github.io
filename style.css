@@ -1,9 +1,9 @@
 @font-face {
     font-family: 'Prime';
-    src: url('../fonts/Prime-Regular.eot'); /* Older IE */
-    src: url('../fonts/Prime-Regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-         url('../fonts/Prime-Regular.woff2') format('woff2'), /* Super modern browsers */
-         url('../fonts/Prime-Regular.woff') format('woff'); /* Modern browsers */
+    src: url('images/Prime-Regular.eot'); /* Older IE */
+    src: url('images/Prime-Regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('images/Prime-Regular.woff2') format('woff2'), /* Super modern browsers */
+         url('images/Prime-Regular.woff') format('woff'); /* Modern browsers */
     font-weight: normal;
     font-style: normal;
 }
